@@ -99,8 +99,7 @@ Created by **[Krishnan]**
 
 ### Connect with Me
 
-- GitHub: https://github.com/your-username
-- LinkedIn: https://linkedin.com/in/your-profile
+- LinkedIn:  www.linkedin.com/in/krishnan06
 
 ---
 
