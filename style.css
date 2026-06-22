@@ -5,6 +5,7 @@
 }
 
 body {
+    background-color: chocolate;
     font-family: "Gabarito", sans-serif;
     font-optical-sizing: auto;
     font-weight: <weight>;
@@ -154,6 +155,12 @@ body {
 
 .course-card {
     width: 300px;
+
+}
+
+.recommended__container :hover{
+    transition: 2s;
+    transform: rotateY(360deg);
 }
 
 .course-card img {
@@ -166,7 +173,24 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 15px;
+    animation-name: speed ;
+    animation-duration: 2s;
+    opacity: 0;
+    animation-fill-mode:forwards;
+    animation-timing-function: linear;
 
+}
+
+@keyframes speed{
+    0%{
+      transform: translateX(-100%);
+      opacity: 1;
+        
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
 }
 
 .topics {
